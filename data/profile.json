@@ -1,0 +1,42 @@
+{
+  "name": "James Baker",
+  "handle": "DaftVino",
+  "brand": "DaftForge",
+  "pitch": "I design and ship engineering tooling, workspace automation, and products that solve real problems. The tools are serious. The wit is dry but complementary.",
+  "links": {
+    "website": "https://daftforge.com",
+    "email": "daftvino@daftforge.com",
+    "linkedin": "https://www.linkedin.com/in/james-baker-9524b783",
+    "workWithMe": "https://daftforge.com/contact/",
+    "bookACall": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV",
+    "support": "https://donatr.ee/daftvino",
+    "github": "https://github.com/DaftVino"
+  },
+  "badges": [
+    { "k": "ci", "v": "passing", "tone": "ok" },
+    { "k": "license", "v": "MIT", "tone": "mit" },
+    { "k": "focus", "v": "automation · tooling", "tone": "red" }
+  ],
+  "stack": ["TypeScript", "SvelteKit", "Node.js", "PostgreSQL", "Cloudflare Workers", "Apps Script"],
+  "capabilities": [
+    { "title": "AI-assisted engineering", "body": "Repo scaffolding, canonical standards, and agent skills that make a solo dev move like a team." },
+    { "title": "Workspace automation", "body": "Apps Script web apps, Sheets pipelines, and governed Gemini workflows for real orgs." },
+    { "title": "Ship-ready tools", "body": "Userscripts, macro packs, and products — built, tested, shipped." }
+  ],
+  "selectedWork": [
+    { "id": "daftplate", "name": "daftplate", "href": "https://github.com/DaftVino/daftplate", "desc": "Type-aware repo scaffolding + canonical engineering standards.", "badges": [ { "k": "js", "v": "JavaScript", "tone": "ink" }, { "k": "ci", "v": "passing", "tone": "ok" }, { "k": "lic", "v": "MIT", "tone": "mit" } ] },
+    { "id": "daftkit", "name": "daftkit", "href": "https://github.com/DaftVino/daftkit", "desc": "Portable Claude Code agent skills — orient, handoff, ship.", "badges": [ { "k": "js", "v": "JavaScript", "tone": "ink" }, { "k": "lic", "v": "MIT", "tone": "mit" } ] },
+    { "id": "daft-gemini-playbook", "name": "daft-gemini-playbook", "href": "https://github.com/DaftVino/daft-gemini-playbook", "desc": "Governed Gemini prompts + rollout guides for Workspace.", "badges": [ { "k": "js", "v": "JavaScript", "tone": "ink" }, { "k": "ci", "v": "passing", "tone": "ok" }, { "k": "lic", "v": "MIT", "tone": "mit" } ] },
+    { "id": "sheetweaver-webapp", "name": "sheetweaver-webapp", "href": "https://github.com/DaftVino/sheetweaver-webapp", "desc": "Gmail → Sheets extraction on a 15-min schedule.", "badges": [ { "k": "app", "v": "HTML · GAS", "tone": "ink" }, { "k": "deploy", "v": "auto", "tone": "ok" }, { "k": "lic", "v": "MIT", "tone": "mit" } ] },
+    { "id": "torn-bookie-live-scores", "name": "torn-bookie-live-scores", "href": "https://github.com/DaftVino/torn-bookie-live-scores", "greasyfork": "https://greasyfork.org/en/scripts/583676-torn-bookie-live-scores", "desc": "Configurable live-scores panel for Torn Bookie.", "badges": [ { "k": "js", "v": "Userscript", "tone": "ink" }, { "k": "live", "v": "GreasyFork ↗", "tone": "ok" }, { "k": "lic", "v": "MIT", "tone": "mit" } ] },
+    { "id": "sheetforge", "name": "sheetforge", "href": "https://github.com/DaftVino/sheetforge", "desc": "Configurable spreadsheet macro packs, no code.", "badges": [ { "k": "vba", "v": "VBA", "tone": "ink" }, { "k": "ci", "v": "passing", "tone": "ok" }, { "k": "issues", "v": "3 open", "tone": "red" } ] }
+  ],
+  "inTheForge": [
+    { "id": "daft-cal", "name": "daft-cal", "href": "https://daftforge.com/tools/daft-cal/", "desc": "Fiscal-aware calendar, task & email workspace — custom fiscal periods, dependency-aware scheduling, email-to-task capture, and transparent, human-controlled AI.", "badges": [ { "k": "status", "v": "in the forge", "tone": "ember" }, { "k": "preview", "v": "daftforge.com ↗", "tone": "red" } ] },
+    { "id": "project-cobalt", "name": "Codename: Project Cobalt", "href": "https://daftforge.com/tools/project-cobalt/", "desc": "Something new taking shape — early, and under wraps for now. Follow the build on the site.", "badges": [ { "k": "status", "v": "in the forge", "tone": "ember" }, { "k": "preview", "v": "daftforge.com ↗", "tone": "red" } ] }
+  ],
+  "support": {
+    "line": "Free and open. If one saves you time, consider supporting its upkeep — optional, always appreciated.",
+    "cta": "Support the work ↗"
+  }
+}

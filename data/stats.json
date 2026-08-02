@@ -1,0 +1,30 @@
+{
+  "commits": 1290,
+  "prs": 137,
+  "issues": 114,
+  "repos": 13,
+  "totalContributions": 1555,
+  "languages": [
+    {
+      "name": "JavaScript",
+      "pct": 60,
+      "color": "#C52F3F"
+    },
+    {
+      "name": "VBA",
+      "pct": 26,
+      "color": "#7a7a99"
+    },
+    {
+      "name": "HTML",
+      "pct": 11,
+      "color": "#9a9ab2"
+    },
+    {
+      "name": "PowerShell",
+      "pct": 2,
+      "color": "#c9c8d6"
+    }
+  ],
+  "updated": ""
+}
