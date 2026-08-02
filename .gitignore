@@ -4,3 +4,4 @@ node_modules/
 .preview-*.png
 .gh.html
 .gh-*.png
+.gh-rendered.html
