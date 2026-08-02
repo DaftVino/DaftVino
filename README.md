@@ -3,6 +3,7 @@
      The GitHub Action refreshes the stats + heatmap on a schedule.
      Layout is table-free on purpose: GitHub styles HTML tables with cell borders,
      which would box the design. Sections are images; interactive parts are inline links. -->
+     
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/wordmark-stacked-dark.png"><img align="left" width="150" src="assets/brand/wordmark-stacked-light.png" alt="DaftForge"></picture>
 
