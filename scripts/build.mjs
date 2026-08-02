@@ -21,8 +21,8 @@ writeFileSync(P(".render.html"), html);
 mkdirSync(P("assets/panels"), { recursive: true });
 
 // which panels are theme-sensitive (need a -dark variant)
-const SINGLE = ["stats", "k01", "k02", "k03", "k04"];
-const DUAL = ["hero", "cap", "support",
+const SINGLE = ["stats", "k01", "k02", "k03", "k04", "cta-work"];
+const DUAL = ["hero", "cap", "support", "cta-call", "link-web", "link-email", "link-linkedin",
   ...profile.selectedWork.map((w) => `tile-${w.id}`),
   ...profile.inTheForge.map((w) => `tile-${w.id}`)];
 
@@ -83,6 +83,8 @@ function assembleReadme(p, s) {
 <div align="center">
 
 ${pic("hero", 880, heroAlt)}
+
+<a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "LinkedIn")}</a> &nbsp;&nbsp;&nbsp; <a href="${L.workWithMe}">${img("cta-work", 0, "Work with me")}</a> &nbsp; <a href="${L.bookACall}">${pic("cta-call", 0, "Book a call")}</a>
 
 </div>
 
