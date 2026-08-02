@@ -21,8 +21,8 @@ writeFileSync(P(".render.html"), html);
 mkdirSync(P("assets/panels"), { recursive: true });
 
 // which panels are theme-sensitive (need a -dark variant)
-const SINGLE = ["stats", "k01", "k02", "k03", "k04"];
-const DUAL = ["hero", "cap", "support",
+const SINGLE = ["stats", "k01", "k02", "k03", "k04", "cta-work"];
+const DUAL = ["herotext", "cap", "support", "cta-call", "link-web", "link-email", "link-linkedin",
   ...profile.selectedWork.map((w) => `tile-${w.id}`),
   ...profile.inTheForge.map((w) => `tile-${w.id}`)];
 
@@ -80,13 +80,13 @@ function assembleReadme(p, s) {
      Layout is table-free on purpose: GitHub styles HTML tables with cell borders,
      which would box the design. Sections are images; interactive parts are inline links. -->
 
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/wordmark-stacked-dark.png"><img align="left" width="150" src="assets/brand/wordmark-stacked-light.png" alt="DaftForge"></picture>
 
-${pic("hero", 880, heroAlt)}
+${pic("herotext", 560, heroAlt)}
 
-<a href="${L.workWithMe}"><b>Work with me</b></a> &nbsp;·&nbsp; <a href="${L.bookACall}">Book a call</a> &nbsp;·&nbsp; <a href="${L.website}">daftforge.com</a> &nbsp;·&nbsp; <a href="mailto:${L.email}">Email</a> &nbsp;·&nbsp; <a href="${L.linkedin}">in/james-baker</a>
+<a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "LinkedIn")}</a> &nbsp;&nbsp;&nbsp; <a href="${L.workWithMe}">${img("cta-work", 0, "Work with me")}</a> &nbsp; <a href="${L.bookACall}">${pic("cta-call", 0, "Book a call")}</a>
 
-</div>
+<br clear="all">
 
 ${img("stats", 880, statsAlt)}
 

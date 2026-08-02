@@ -4,13 +4,13 @@
      Layout is table-free on purpose: GitHub styles HTML tables with cell borders,
      which would box the design. Sections are images; interactive parts are inline links. -->
 
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/wordmark-stacked-dark.png"><img align="left" width="150" src="assets/brand/wordmark-stacked-light.png" alt="DaftForge"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/hero-dark.png"><img src="assets/panels/hero.png" width="880" alt="I'm James Baker, building as DaftForge (@DaftVino). I design and ship engineering tooling, workspace automation, and products that solve real problems. The tools are serious. The wit is dry but complementary. Links: daftforge.com, email, LinkedIn, Work with me, Book a call."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/herotext-dark.png"><img src="assets/panels/herotext.png" width="560" alt="I'm James Baker, building as DaftForge (@DaftVino). I design and ship engineering tooling, workspace automation, and products that solve real problems. The tools are serious. The wit is dry but complementary. Links: daftforge.com, email, LinkedIn, Work with me, Book a call."></picture>
 
-<a href="https://daftforge.com/contact/"><b>Work with me</b></a> &nbsp;·&nbsp; <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV">Book a call</a> &nbsp;·&nbsp; <a href="https://daftforge.com">daftforge.com</a> &nbsp;·&nbsp; <a href="mailto:daftvino@daftforge.com">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/james-baker-9524b783">in/james-baker</a>
+<a href="https://daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-web-dark.png"><img src="assets/panels/link-web.png" width="118" alt="daftforge.com"></picture></a> &nbsp; <a href="mailto:daftvino@daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-email-dark.png"><img src="assets/panels/link-email.png" width="60" alt="Email"></picture></a> &nbsp; <a href="https://www.linkedin.com/in/james-baker-9524b783"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-linkedin-dark.png"><img src="assets/panels/link-linkedin.png" width="121" alt="LinkedIn"></picture></a> &nbsp;&nbsp;&nbsp; <a href="https://daftforge.com/contact/"><img src="assets/panels/cta-work.png" width="117" alt="Work with me"></a> &nbsp; <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/cta-call-dark.png"><img src="assets/panels/cta-call.png" width="100" alt="Book a call"></picture></a>
 
-</div>
+<br clear="all">
 
 <img src="assets/panels/stats.png" width="880" alt="1,290 commits, 137 pull requests, 114 issues, 13 repos, MIT licensed. Stack: TypeScript, SvelteKit, Node.js, PostgreSQL, Cloudflare Workers, Apps Script. Language split: JavaScript 60%, VBA 26%, HTML 11%, PowerShell 2%. Forge-heat contribution heatmap: 1,555 contributions this year.">
 

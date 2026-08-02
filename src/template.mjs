@@ -166,14 +166,17 @@ export function buildHTML(p, stats, heatmapSvg) {
 <body>
 <div class="stack">
 
-  <div id="hero" class="panel"><div class="herorow">
-    <img class="wm wm-light" src="assets/brand/wordmark-stacked-light.png" alt="">
-    <img class="wm wm-dark" src="assets/brand/wordmark-stacked-dark.png" alt="">
-    <div class="hero-split">
-      <p class="name">I'm ${esc(p.name)} <span class="h">— building as</span> ${esc(p.brand)} <span class="h">(</span>@${esc(p.handle)}<span class="h">)</span></p>
-      <p class="pitch">${esc(p.pitch)}</p>
-    </div>
-  </div></div>
+  <div id="herotext" class="hero-split" style="width:560px;border-left:none;padding-left:0">
+    <p class="name">I'm ${esc(p.name)} <span class="h">— building as</span> ${esc(p.brand)} <span class="h">(</span>@${esc(p.handle)}<span class="h">)</span></p>
+    <p class="pitch">${esc(p.pitch)}</p>
+  </div>
+
+  <!-- CTA elements captured individually, wrapped in real links in the README -->
+  <div class="ctacell" id="link-web"><a class="flink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>daftforge.com</a></div>
+  <div class="ctacell" id="link-email"><a class="flink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>Email</a></div>
+  <div class="ctacell" id="link-linkedin"><a class="flink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>in/james-baker</a></div>
+  <div class="ctacell" id="cta-work"><a class="btn primary">Work with me</a></div>
+  <div class="ctacell" id="cta-call"><a class="btn outline">Book a call</a></div>
 
   <div id="stats" class="band panel">
     <div class="metrics">${metricHTML}</div>
