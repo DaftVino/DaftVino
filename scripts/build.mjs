@@ -22,7 +22,7 @@ mkdirSync(P("assets/panels"), { recursive: true });
 
 // which panels are theme-sensitive (need a -dark variant)
 const SINGLE = ["stats", "k01", "k02", "k03", "k04", "cta-work"];
-const DUAL = ["herotext", "cap", "support", "cta-call", "link-web", "link-email", "link-linkedin",
+const DUAL = ["cap", "support", "cta-call", "link-web", "link-email", "link-linkedin",
   ...profile.selectedWork.map((w) => `tile-${w.id}`),
   ...profile.inTheForge.map((w) => `tile-${w.id}`)];
 
@@ -80,9 +80,11 @@ function assembleReadme(p, s) {
      Layout is table-free on purpose: GitHub styles HTML tables with cell borders,
      which would box the design. Sections are images; interactive parts are inline links. -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/wordmark-stacked-dark.png"><img align="left" width="150" src="assets/brand/wordmark-stacked-light.png" alt="DaftForge"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brand/wordmark-stacked-dark.png"><img align="left" width="155" src="assets/brand/wordmark-stacked-light.png" alt="DaftForge"></picture>
 
-${pic("herotext", 560, heroAlt)}
+**I'm ${p.name} — building as ${p.brand} (@${p.handle})**
+
+${p.pitch}
 
 <a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "LinkedIn")}</a> &nbsp;&nbsp;&nbsp; <a href="${L.workWithMe}">${img("cta-work", 0, "Work with me")}</a> &nbsp; <a href="${L.bookACall}">${pic("cta-call", 0, "Book a call")}</a>
 
