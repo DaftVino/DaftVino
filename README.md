@@ -10,9 +10,7 @@
 
 I design and ship engineering tooling, workspace automation, and products that solve real problems. The tools are serious. The wit is dry but complementary.
 
-<a href="https://daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-web-dark.png"><img src="assets/panels/link-web.png" width="118" alt="daftforge.com"></picture></a> &nbsp; <a href="mailto:daftvino@daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-email-dark.png"><img src="assets/panels/link-email.png" width="60" alt="Email"></picture></a> &nbsp; <a href="https://www.linkedin.com/in/james-baker-9524b783"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-linkedin-dark.png"><img src="assets/panels/link-linkedin.png" width="121" alt="LinkedIn"></picture></a> &nbsp;&nbsp;&nbsp; <a href="https://daftforge.com/contact/"><img src="assets/panels/cta-work.png" width="117" alt="Work with me"></a> &nbsp; <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/cta-call-dark.png"><img src="assets/panels/cta-call.png" width="100" alt="Book a call"></picture></a>
-
-<br clear="all">
+<a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/cta-call-dark.png"><img align="right" width="100" src="assets/panels/cta-call.png" alt="Book a call"></picture></a> <a href="https://daftforge.com/contact/"><img align="right" width="117" src="assets/panels/cta-work.png" alt="Work with me"></a> <a href="https://daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-web-dark.png"><img src="assets/panels/link-web.png" width="118" alt="daftforge.com"></picture></a> &nbsp; <a href="mailto:daftvino@daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-email-dark.png"><img src="assets/panels/link-email.png" width="60" alt="Email"></picture></a> &nbsp; <a href="https://www.linkedin.com/in/james-baker-9524b783"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/link-linkedin-dark.png"><img src="assets/panels/link-linkedin.png" width="121" alt="in/james-baker"></picture></a><br clear="all">
 
 <img src="assets/panels/stats.png" width="880" alt="1,290 commits, 137 pull requests, 114 issues, 13 repos, MIT licensed. Stack: TypeScript, SvelteKit, Node.js, PostgreSQL, Cloudflare Workers, Apps Script. Language split: JavaScript 60%, VBA 26%, HTML 11%, PowerShell 2%. Forge-heat contribution heatmap: 1,555 contributions this year.">
 
@@ -22,7 +20,7 @@ I design and ship engineering tooling, workspace automation, and products that s
 
 <img src="assets/panels/k02.png" width="187" alt="// 02 · selected work">
 
-<p align="left">
+<p align="center">
 <a href="https://github.com/DaftVino/daftplate"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/tile-daftplate-dark.png"><img src="assets/panels/tile-daftplate.png" width="400" alt="daftplate — Type-aware repo scaffolding + canonical engineering standards."></picture></a>
 <a href="https://github.com/DaftVino/daftkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/tile-daftkit-dark.png"><img src="assets/panels/tile-daftkit.png" width="400" alt="daftkit — Portable Claude Code agent skills — orient, handoff, ship."></picture></a>
 <a href="https://github.com/DaftVino/daft-gemini-playbook"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/tile-daft-gemini-playbook-dark.png"><img src="assets/panels/tile-daft-gemini-playbook.png" width="400" alt="daft-gemini-playbook — Governed Gemini prompts + rollout guides for Workspace."></picture></a>
@@ -33,7 +31,7 @@ I design and ship engineering tooling, workspace automation, and products that s
 
 <img src="assets/panels/k03.png" width="180" alt="// 03 · in the forge">
 
-<p align="left">
+<p align="center">
 <a href="https://daftforge.com/tools/daft-cal/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/tile-daft-cal-dark.png"><img src="assets/panels/tile-daft-cal.png" width="400" alt="daft-cal — Fiscal-aware calendar, task & email workspace — custom fiscal periods, dependency-aware scheduling, email-to-task capture, and transparent, human-controlled AI."></picture></a>
 <a href="https://daftforge.com/tools/project-cobalt/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/tile-project-cobalt-dark.png"><img src="assets/panels/tile-project-cobalt.png" width="400" alt="Codename: Project Cobalt — Something new taking shape — early, and under wraps for now. Follow the build on the site."></picture></a>
 </p>

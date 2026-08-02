@@ -65,7 +65,7 @@ function tilesBlock(items) {
   const cards = items
     .map((t) => `<a href="${t.href}">${pic(`tile-${t.id}`, 400, `${t.name} — ${t.desc}`)}</a>`)
     .join("\n");
-  return `<p align="left">\n${cards}\n</p>`;
+  return `<p align="center">\n${cards}\n</p>`;
 }
 
 function assembleReadme(p, s) {
@@ -86,9 +86,7 @@ function assembleReadme(p, s) {
 
 ${p.pitch}
 
-<a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "LinkedIn")}</a> &nbsp;&nbsp;&nbsp; <a href="${L.workWithMe}">${img("cta-work", 0, "Work with me")}</a> &nbsp; <a href="${L.bookACall}">${pic("cta-call", 0, "Book a call")}</a>
-
-<br clear="all">
+<a href="${L.bookACall}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/cta-call-dark.png"><img align="right" width="${widths["cta-call"]}" src="assets/panels/cta-call.png" alt="Book a call"></picture></a> <a href="${L.workWithMe}"><img align="right" width="${widths["cta-work"]}" src="assets/panels/cta-work.png" alt="Work with me"></a> <a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "in/james-baker")}</a><br clear="all">
 
 ${img("stats", 880, statsAlt)}
 
