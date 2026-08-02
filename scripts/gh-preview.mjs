@@ -23,7 +23,7 @@ function page(scheme) {
   return `<!doctype html><html data-color-mode="${scheme}" data-light-theme="light" data-dark-theme="dark"><head><meta charset="utf-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.css"></head>
   <body style="margin:0;background:${canvas}">
-  <article class="markdown-body" style="max-width:900px;margin:0 auto;padding:32px 24px;background:${canvas}">
+  <article class="markdown-body" style="max-width:920px;margin:0 auto;padding:32px 24px;background:${canvas}">
   ${bodyHtml}
   </article></body></html>`;
 }

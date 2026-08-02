@@ -21,8 +21,8 @@ writeFileSync(P(".render.html"), html);
 mkdirSync(P("assets/panels"), { recursive: true });
 
 // which panels are theme-sensitive (need a -dark variant)
-const SINGLE = ["stats", "k01", "k02", "k03", "k04", "cta-work"];
-const DUAL = ["hero", "cap", "support", "cta-call", "link-web", "link-email", "link-linkedin",
+const SINGLE = ["stats", "k01", "k02", "k03", "k04"];
+const DUAL = ["hero", "cap", "support",
   ...profile.selectedWork.map((w) => `tile-${w.id}`),
   ...profile.inTheForge.map((w) => `tile-${w.id}`)];
 
@@ -65,7 +65,7 @@ function tilesBlock(items) {
   const cards = items
     .map((t) => `<a href="${t.href}">${pic(`tile-${t.id}`, 400, `${t.name} — ${t.desc}`)}</a>`)
     .join("\n");
-  return `<p align="center">\n${cards}\n</p>`;
+  return `<p align="left">\n${cards}\n</p>`;
 }
 
 function assembleReadme(p, s) {
@@ -84,7 +84,7 @@ function assembleReadme(p, s) {
 
 ${pic("hero", 880, heroAlt)}
 
-<a href="${L.website}">${pic("link-web", 0, "daftforge.com")}</a> &nbsp; <a href="mailto:${L.email}">${pic("link-email", 0, "Email")}</a> &nbsp; <a href="${L.linkedin}">${pic("link-linkedin", 0, "LinkedIn")}</a> &nbsp;&nbsp;&nbsp; <a href="${L.workWithMe}">${img("cta-work", 0, "Work with me")}</a> &nbsp; <a href="${L.bookACall}">${pic("cta-call", 0, "Book a call")}</a>
+<a href="${L.workWithMe}"><b>Work with me</b></a> &nbsp;·&nbsp; <a href="${L.bookACall}">Book a call</a> &nbsp;·&nbsp; <a href="${L.website}">daftforge.com</a> &nbsp;·&nbsp; <a href="mailto:${L.email}">Email</a> &nbsp;·&nbsp; <a href="${L.linkedin}">in/james-baker</a>
 
 </div>
 
