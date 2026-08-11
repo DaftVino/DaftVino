@@ -31,7 +31,6 @@ export function buildHTML(p, stats, heatmapSvg) {
   ];
   const metricHTML = metrics.map((m) => `<div class="metric"><b>${esc(m.b)}</b><span>${esc(m.s)}</span></div>`).join("");
   const badgeHTML = p.badges.map(badge).join("");
-  const stackHTML = (p.stack || []).map((sName) => `<span class="chip">${esc(sName)}</span>`).join("");
   const langHTML = stats.languages.map((l) => `<i style="width:${l.pct}%;background:${l.color}"></i>`).join("");
   const legHTML = stats.languages.map((l) => `<span><i class="d" style="background:${l.color}"></i>${esc(l.name)} ${l.pct}%</span>`).join("");
   const capHTML = p.capabilities.map((c) => `<div class="cap"><div class="ct">${esc(c.title)}</div><div class="cd">${esc(c.body)}</div></div>`).join("");
@@ -101,10 +100,7 @@ export function buildHTML(p, stats, heatmapSvg) {
   .badge .k{background:#44445e;color:#fff;padding:4px 7px;letter-spacing:.02em}
   .badge .v{padding:4px 7px;color:#fff;letter-spacing:.02em}
   .v.red{background:var(--red)} .v.ink{background:var(--ink700)} .v.ok{background:var(--ok)} .v.mit{background:#5a5a72} .v.ember{background:#8f212b}
-  .brow{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
-  .stackrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px}
-  .stacklab{font-family:var(--mono);font-size:10.5px;color:var(--red);text-transform:uppercase;letter-spacing:.09em;margin-right:3px}
-  .chip{font-family:var(--mono);font-size:10.5px;color:#dcdce6;background:#30304c;border:1px solid var(--dborder);padding:4px 8px;border-radius:2px;letter-spacing:.02em}
+  .brow{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
   .langbar{display:flex;height:9px;border-radius:2px;overflow:hidden;margin:0 0 8px;border:1px solid var(--dborder)}
   .langbar i{display:block;height:100%}
   .leg{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--mono);font-size:11px;color:var(--dmuted)}
@@ -188,7 +184,6 @@ export function buildHTML(p, stats, heatmapSvg) {
   <div id="stats" class="band panel">
     <div class="metrics">${metricHTML}</div>
     <div class="brow">${badgeHTML}</div>
-    <div class="stackrow"><span class="stacklab">stack</span>${stackHTML}</div>
     <div class="langbar">${langHTML}</div>
     <div class="leg">${legHTML}</div>
     <div class="heat">

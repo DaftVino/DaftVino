@@ -17,7 +17,6 @@
     { "k": "license", "v": "MIT", "tone": "mit" },
     { "k": "focus", "v": "automation · tooling", "tone": "red" }
   ],
-  "stack": ["TypeScript", "SvelteKit", "Node.js", "PostgreSQL", "Cloudflare Workers", "Apps Script"],
   "capabilities": [
     { "title": "AI-assisted engineering", "body": "Repo scaffolding, canonical standards, and agent skills that make a solo dev move like a team." },
     { "title": "Workspace automation", "body": "Apps Script web apps, Sheets pipelines, and governed Gemini workflows for real orgs." },
