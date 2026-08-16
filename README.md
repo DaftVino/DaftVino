@@ -16,7 +16,7 @@ I design and ship engineering tooling, workspace automation, and products that s
 <a href="https://daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/bdg-web-dark.png"><img src="assets/panels/bdg-web.png" width="146" alt="daftforge.com"></picture></a> <a href="mailto:daftvino@daftforge.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/bdg-email-dark.png"><img src="assets/panels/bdg-email.png" width="88" alt="Email"></picture></a> <a href="https://www.linkedin.com/in/james-baker-9524b783"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/panels/bdg-linkedin-dark.png"><img src="assets/panels/bdg-linkedin.png" width="149" alt="in/james-baker"></picture></a> <a href="https://daftforge.com/contact/"><img src="assets/panels/bdg-work.png" width="117" alt="Work with me"></a> <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3ArXqwmG3jnBJlQQuIDbgoQ8WW45mED_ARsHeQq0CNjhTvBClW9IbRla0vkZiLtU4CqRIzhUeV"><img src="assets/panels/bdg-call.png" width="100" alt="Book a call"></a>
 </div>
 
-<img src="assets/panels/stats.png" width="880" alt="1,909 commits, 161 pull requests, 146 issues, 17 repos, MIT licensed. Language split: JavaScript 69%, VBA 20%, HTML 9%, PowerShell 2%. Forge-heat contribution heatmap: 2,234 contributions this year.">
+<img src="assets/panels/stats.png" width="880" alt="1,918 commits, 171 pull requests, 198 issues, 17 repos, MIT licensed. Language split: JavaScript 69%, VBA 20%, HTML 9%, PowerShell 2%. Forge-heat contribution heatmap: 2,305 contributions this year.">
 
 <img src="assets/panels/k01.png" width="180" alt="// 01 · what I build">
 
